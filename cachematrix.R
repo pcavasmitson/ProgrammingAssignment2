@@ -2,7 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## Purpose of code below is to store a matrix
+## And stores cached value of the inverse of the matrix
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
   set<-function(y){
@@ -19,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## Below calculates the inverse of matrix create with above
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   m<-x$getmatrix()
